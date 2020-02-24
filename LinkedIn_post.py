@@ -1,9 +1,11 @@
+'''Code to automatically login LinkedIn and share post'''
+
 
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-class LinkedinBot:
+class LinkedinPost:
     def __init__(self, username, password):
         """ Initialized Chromedriver, sets common urls, username and password for user """
 
@@ -46,7 +48,7 @@ if __name__ == '__main__':
     post_text = 'this is s trial post'
    
 
-    bot = LinkedinBot(username, password)
-    bot.login(username, password)
-    bot.post(post_text)
+    test = LinkedinPost(username, password)
+    test.login(username, password)
+    test.post(post_text)
     
