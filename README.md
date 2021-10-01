@@ -1,2 +1,3 @@
-# Python-projects
-# Contain all Python code for practice 
+# Python Learning
+
+Contain all Python code for practise 
